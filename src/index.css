@@ -31,7 +31,7 @@
   margin-left: 1rem;
 }
 .weather__container {
-  min-width: 23rem;
+  min-width: 18rem;
   max-width: 32rem;
   border-radius: 0.3rem;
   background-color: var(--Black-Op);
