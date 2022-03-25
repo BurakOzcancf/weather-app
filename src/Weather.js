@@ -39,6 +39,7 @@ const Weather = () => {
     }
     React.useEffect(() => {
         if (value) {
+            setLoading(true)
             axios
             .get(`https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`)
             .then(res => {
