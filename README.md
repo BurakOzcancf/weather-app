@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<h1 align="center">Weather App</h1>
+<img src=./public/weather-app.PNG>
+<p>Onload show your location's forecast. And searchable any city's forecast by city name</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [What is the goal of this project?](#what-is-the-goal-of-this-project)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Tech I used](#tech-i-used)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### What is the goal of this project?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I've made this project to make practice React.js skills and to build a project. So why the weather app? Because building a weather app is really useful to improve how to deal with geolocation. The Weather app already is a well-known popular app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Onload show their location's forecast
+- Finding city's forecast by searching their name
+- Show dynamic backgrounds in order to weather
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [The GitHub Repository](https://github.com/BurakOzcancf/weather-app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [LIVE PREVIEW](https://u-know-what-is-the-weather.netlify.app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Contributing Guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
 
-### `npm run eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tech I used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/) - JS library
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- useState, useEffect
+- Geolocation
+- Axios
+- Dynamic Background
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- BEM method
 
-## Learn More
+### What I learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Geolocation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- [Geolocation](https://www.w3schools.com/html/html5_geolocation.asp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Burak Ozcan](https://burakozcan.netlify.app/)
+- GitHub - [BurakOzcancf](https://github.com/BurakOzcancf/Counrtries)
+- Twitter - [@MyNameIsOzcan](https://twitter.com/MyNameIsOzcan)
