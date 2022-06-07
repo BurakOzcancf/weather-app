@@ -10,7 +10,12 @@
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.2rem;
 }
-
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("/src/assets/Image4.jpg");
+}
 .weather__input {
   padding: 0.5rem 1rem;
   border-radius: 0.2rem;
