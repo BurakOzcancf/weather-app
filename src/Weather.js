@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Weather = () => {
@@ -16,11 +16,11 @@ const Weather = () => {
   }
   getCurrentCoords();
 
-  React.useEffect(() => {
-    if (lat && lon) {
+  useEffect(() => {
+    if (value) {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
+          `https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
         )
         .then((res) => {
           setWeather(res.data);
@@ -28,10 +28,10 @@ const Weather = () => {
         .catch((err) => {
           console.log(err);
         });
-    } else if (value) {
+    } else if (lat && lon) {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
         )
         .then((res) => {
           setWeather(res.data);
