@@ -50,7 +50,6 @@ const Weather = () => {
 
   function background() {
     if (weather) {
-      console.log(weather.weather[0].main);
       if (weather.weather[0].main === "Snow") {
         return "snow";
       }
