@@ -20,7 +20,7 @@ const Weather = () => {
     if (value) {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
+          `https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=${process.env.REACT_APP_KEY}`
         )
         .then((res) => {
           setWeather(res.data);
@@ -31,7 +31,7 @@ const Weather = () => {
     } else if (lat && lon) {
       axios
         .get(
-          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=bfe8822c7b4e4ea63ea1348642874f7f`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${process.env.REACT_APP_KEY}`
         )
         .then((res) => {
           setWeather(res.data);
