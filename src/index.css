@@ -14,7 +14,7 @@ main {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-image: url("/src/assets/Image4.jpg");
+  background-image: url("./assets/Image4.jpg");
 }
 .weather__input {
   padding: 0.5rem 1rem;
@@ -76,16 +76,16 @@ main {
   min-height: 100vh;
 }
 .cloud {
-  background-image: url(/src/assets/IMG-8395.JPG);
+  background-image: url(./assets/IMG-8395.JPG);
 }
 .rain {
-  background-image: url(/src/assets/IMG-8396.JPG);
+  background-image: url(./assets/IMG-8396.JPG);
 }
 .clear {
-  background-image: url(/src/assets/IMG-8398.JPG);
+  background-image: url(./assets/IMG-8398.JPG);
 }
 .snow {
-  background-image: url(/src/assets/IMG-8397.JPG);
+  background-image: url(./assets/IMG-8397.JPG);
 }
 .weather__loading {
   padding: 1rem;
